@@ -62,6 +62,7 @@ public static class FontLoader
         Debug.Log($"FaceInfo familyName: {familyName}, pointSize: {samplingPointSize}");
 
         var fontAsset = ScriptableObject.CreateInstance<TMP_FontAsset>();
+        fontAsset.name = (string)familyName;
 
         var renderModeType = s_fontEngineAssembly.GetType("UnityEngine.TextCore.LowLevel.GlyphRenderMode");
         var sdfaaMode = Enum.Parse(renderModeType, "SDFAA");

@@ -16,7 +16,7 @@ naming inspiration:
 
 Kou! - [A.O.E::area_of_effect](https://osu.ppy.sh/beatmapsets/2321798#mania/4974366)
 
-Camellia - [Kikai No Tsubasa](https://www.youtube.com/watch?v=vfkC_FaTJiA)
+Camellia - [Kikai No Tsubasa feat. Kanase Teto](https://www.youtube.com/watch?v=vfkC_FaTJiA)
 
 ref:
 - Font Engine: https://docs.unity3d.com/ScriptReference/TextCore.LowLevel.FontEngine.html
