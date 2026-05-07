@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>FNT</AssemblyName>
+    <RootNamespace>FNT</RootNamespace>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+
+    <!-- NuGet metadata -->
+    <PackageId>F.N.T</PackageId>
+    <Title>F.N.T — font_no_tsubasa</Title>
+    <Version>1.0.0</Version>
+    <Authors>greycsont</Authors>
+    <Description>font_no_tsubasa — Utility library for loading TMP_FontAsset and Font from font files at runtime in Unity games.</Description>
+    <PackageTags>unity;bepinex;tmp;textmeshpro;font</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Basic Unity types (no game installation needed) -->
+    <PackageReference Include="UnityEngine.Modules" Version="2022.3.28" IncludeAssets="compile"/>
+
+    <!-- Game-specific DLLs — path comes from Directory.Build.props (gitignored) -->
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>$(GameDir)ULTRAKILL_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>$(GameDir)ULTRAKILL_Data/Managed/Unity.TextMeshPro.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>$(GameDir)ULTRAKILL_Data/Managed/UnityEngine.TextCoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
