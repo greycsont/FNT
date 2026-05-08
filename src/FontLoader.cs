@@ -44,7 +44,7 @@ public static class FontLoader
         .GetMethod("AddSynthesizedCharactersAndFaceMetrics", s_flags);
 
     public static TMP_FontAsset CreateFontAssetFromFile(string path, int samplingPointSize = 90,
-        int atlasPadding = 9, int atlasWidth = 512, int atlasHeight = 512)
+        int atlasPadding = 9, int atlasWidth = 1024, int atlasHeight = 1024)
     {
         s_initFontEngine.Invoke(null, null);
 

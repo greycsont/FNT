@@ -1,5 +1,5 @@
 ## F.N.T::font_no_tsubasa
-A lib to load font to TMP_FontAsset or Font at Unity's runtime
+A lib to load font into TMP_FontAsset and Font at Unity's runtime
 
 example:
 
@@ -14,10 +14,10 @@ Font font = FNT.FontLoader.CreateFontFromFile(fontPath);
 ## Compability
 it works at 2022.3.29f1, ULTRAKILL's unity version
 
-it didn't tested in other unity games with diff version of unity
+it didn't tested in other unity games with diff version of v
 
 ## Credit
-naming inspiration: 
+naming inspiration from: 
 
 Kou! - [A.O.E::area_of_effect](https://osu.ppy.sh/beatmapsets/2321798#mania/4974366)
 

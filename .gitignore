@@ -4,3 +4,4 @@ obj/
 .vs/
 Directory.Build.props
 *.nupkg
+package/
