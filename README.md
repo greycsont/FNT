@@ -35,3 +35,7 @@ ref:
   ![ConsoleOutput](https://raw.githubusercontent.com/greycsont/FALLBACKFONT9/master/docs/ConsoleOutput.png)
 
 - decomplie of TMP_FontAsset and Font
+
+## Font used in thumbnail
+D-DIN by datto - https://github.com/amcchord/datto-d-din
+Samigirian by siphercase - https://github.com/Siphercase/Samigirian
