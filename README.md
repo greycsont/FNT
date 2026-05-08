@@ -38,4 +38,5 @@ ref:
 
 ## Font used in thumbnail
 D-DIN by datto - https://github.com/amcchord/datto-d-din
+
 Samigirian by siphercase - https://github.com/Siphercase/Samigirian
