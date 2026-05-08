@@ -14,7 +14,7 @@ Font font = FNT.FontLoader.CreateFontFromFile(fontPath);
 ## Compability
 it works at 2022.3.29f1, ULTRAKILL's unity version
 
-it didn't tested in other unity games with diff version of v
+it didn't tested in other games with diff version of lib of unity
 
 ## Credit
 naming inspiration from: 
